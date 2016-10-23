@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{347DEF4B-2D0A-4823-A446-72A318E4CC6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEC81886-FA5D-4FFC-89C5-18D1F9E68B6C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AnApiOfIceAndFire", "src\AnApiOfIceAndFire\AnApiOfIceAndFire.xproj", "{9D0BCA48-C54A-42FE-AE91-FDC82839A8A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D0BCA48-C54A-42FE-AE91-FDC82839A8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0BCA48-C54A-42FE-AE91-FDC82839A8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0BCA48-C54A-42FE-AE91-FDC82839A8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0BCA48-C54A-42FE-AE91-FDC82839A8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D0BCA48-C54A-42FE-AE91-FDC82839A8A4} = {347DEF4B-2D0A-4823-A446-72A318E4CC6B}
+	EndGlobalSection
+EndGlobal
