@@ -1,3 +1,66 @@
 ﻿@{
     ViewData["Title"] = "An API of Ice And Fire";
 }
+
+<div class="row text-center">
+    <div class="col-xs-1 col-md-1 col-lg-1"></div>
+    <div class="col-xs-10 col-md-10 col-lg-10">
+        <h1>Build your ASOIAF app using our data</h1>
+        <p class="secondary-text">Don't know where to start? We provide a thorough documentation to make it as easy as possible for you to get started.</p>
+        <a class="btn btn-primary btn-lg" asp-area="" asp-controller="Documentation" asp-action="Index">Explore the documentation</a>
+    </div>
+    <div class="col-xs-1 col-md-1 col-lg-1"></div>
+</div>
+<hr />
+<div class="row text-center">
+    <div class="col-xs-1 col-md-1 col-lg-1"></div>
+    <div class="col-xs-10 col-md-10 col-lg-10">
+        <h1>Try it out!</h1>
+        <p class="secondary-text">You can try the API without knowing anything about programming.</p>
+        <div class="input-group">
+            <span class="input-group-addon">https://anapioficeandfire.com/api/</span>
+            <input type="text" class="form-control" id="btnRequestUrl" aria-describedby="basic-addon3" placeholder="characters/583">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" id="btnMakeApiRequest" type="button">Request</button>
+            </span>
+        </div>
+        <p class="text-left">Psst, need a hint? Try <a href="javascript:void(0)" class="request-suggestion"><i>books/1</i></a>, <a href="javascript:void(0)" class="request-suggestion"><i>characters/583</i></a> or <a href="javascript:void(0)" class="request-suggestion"><i>houses/378</i></a></p>
+    </div>
+    <div class="col-xs-1 col-md-1 col-lg-1"></div>
+</div>
+<div class="row">
+    <div class="col-xs-1 col-md-1 col-lg-1"></div>
+    <div class="col-xs-10 col-md-10 col-lg-10">
+        <h4>Response:</h4>
+        <div class="well">
+            <pre id="responseOutput" class="pre-scrollable">
+</pre>
+        </div>
+    </div>
+    <div class="col-xs-1 col-md-1 col-lg-1"></div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-xs-12 col-md-12 col-lg-12">
+        <h3>Getting started</h3>
+        <p>abc</p>    
+        <a href="#">Read -></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-12 col-lg-12">
+        <h3>Discovering the different resources</h3>
+        <p>abc</p>
+        <a href="#">Read -></a>
+    </div>
+</div>
+<hr/>
+<div class="row text-center">
+    <div class="col-xs-2 col-md-2 col-lg-2"></div>
+    <div class="col-xs-8 col-md-8 col-lg-8">
+        <h1>Explore our libraries</h1>
+        <p class="secondary-text">Choose your favourite from a vast amount of languages.</p>
+        <button class="btn btn-primary btn-lg">Browse the available libraries</button>
+    </div>
+    <div class="col-xs-2 col-md-2 col-lg-2"></div>
+</div>
